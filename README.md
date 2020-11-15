@@ -42,3 +42,11 @@ If you get any permission issues, Goto Tools -> Port and and find the device ( s
 ```
 sudo chmod a+rw /dev/ttyUSB0
 ```
+### Tips
+01: How can be compile and upload arduino skrech using commandline
+```
+arduino --upload /path/to/file.ino
+```
+
+### Acknowledgement
+[Ref:01](https://github.com/arduino/Arduino/blob/master/build/shared/manpage.adoc)
